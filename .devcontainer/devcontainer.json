@@ -1,10 +1,13 @@
 {
-  "name": "Debian + Flutter",
+  "name": "Flutter Web Codespace",
   "build": {
     "dockerfile": "Dockerfile"
   },
-  "settings": {},
+  "settings": {
+    "terminal.integrated.defaultProfile.linux": "bash"
+  },
   "extensions": [
     "Dart-Code.flutter"
-  ]
+  ],
+  "postCreateCommand": "flutter doctor && flutter config --enable-web && flutter create my_app"
 }
