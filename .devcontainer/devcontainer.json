@@ -1,0 +1,10 @@
+{
+  "name": "Debian + Flutter",
+  "build": {
+    "dockerfile": "Dockerfile"
+  },
+  "settings": {},
+  "extensions": [
+    "Dart-Code.flutter"
+  ]
+}
